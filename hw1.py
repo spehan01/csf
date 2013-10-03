@@ -17,7 +17,7 @@ import math                     # makes the math.sqrt function available
 ###
 
 print "Problem 1 solution follows:"
-
+print "Hello world!"
 # ... write your code and comments here (and remove this line)
 
 
