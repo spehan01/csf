@@ -32,9 +32,11 @@ print x
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 2 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+# 
 
-
+for x in range (2, 11): 
+    print 1.0 / x
+else: print "done"
 ###
 ### Problem 3
 ###
@@ -43,7 +45,10 @@ print "Problem 2 solution follows:"
 print "Problem 3 solution follows:"
 
 # ... write your code and comments here (and remove this line)
-
+n = 10
+triangular = 0
+for i in range (triangular, n):
+    print n*(n+1)/2
 ###
 ### Problem 4
 ###
@@ -53,7 +58,6 @@ print "Problem 4 solution follows:"
 
 # ... write your code and comments here (and remove this line)
 
-###
 ### Problem 5
 ###
 
