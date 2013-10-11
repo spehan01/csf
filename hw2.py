@@ -44,11 +44,12 @@ else: print "done"
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 3 solution follows:"
 
-# ... write your code and comments here (and remove this line)
 n = 10
 triangular = 0
-for i in range (triangular, n):
-    print n*(n+1)/2
+for i in range (0, n+1):
+    triangular = triangular + i
+print "Triangular number", n, "via loop:", triangular
+print "Triangular number", n, "via formula:", ( n * (n + 1) / 2)
 ###
 ### Problem 4
 ###
@@ -56,17 +57,32 @@ for i in range (triangular, n):
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 4 solution follows:"
 
-# ... write your code and comments here (and remove this line)
 
+n = 10
+a = 1
+for t in range (1, n+1):
+    a = (t * a)
+print a
+ #can check answer by 1*2*3*4*5*6*7*8*9*10
+ 
 ### Problem 5
 ###
 
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 5 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+numlines = 10 
+fac = 1
+for n in range (1,numlines+1):
+    fac = (n * fac)
+    for i in range(1, numlines+1):
+        i = (i * n)
+    print fac
+ #having trouble turning it around
+    
 
-###
+ 
+ ###
 ### Problem 6
 ###
 
@@ -74,18 +90,24 @@ print "Problem 5 solution follows:"
 print "Problem 6 solution follows:"
 
 # ... write your code and comments here (and remove this line)
+q = 0
+for r in range (1, 10):
+    s = 1.0 / r
+print s
 
-###
+# had trouble with six, need help
+
+
 ### Collaboration
 ###
 
-# ... List your collaborators and other sources of help here (websites, books, etc.),
-# ... as a comment (on a line starting with "#").
+# ... linzac03, Think Python
 
 ###
 ### Reflection
-###
-
+### It took me about an hour and a half to two hours to work on the homework.
+# I feel like things could be explained slower in lab sometimes.
+# It would be helpful for newer people.
 # ... Write how long this assignment took you, including doing all the readings
 # ... and tutorials linked to from the homework page. Did the readings, tutorials,
 # ... and lecture contain everything you needed to complete this assignment?
