@@ -71,13 +71,14 @@ print a
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 5 solution follows:"
 
-numlines = 10 
+numlines = 10
 fac = 1
-for n in range (1,numlines+1):
-    fac = (n * fac)
+
+for n in range (numlines,numlines-1, -1):
     for i in range(1, numlines+1):
-        i = (i * n)
-    print fac
+        fac = (i * fac)
+        print fac
+    
  #having trouble turning it around
     
 
@@ -89,14 +90,15 @@ for n in range (1,numlines+1):
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 6 solution follows:"
 
-# ... write your code and comments here (and remove this line)
-q = 0
-for r in range (1, 10):
-    s = 1.0 / r
-print s
+p = 0
+y = 10
 
-# had trouble with six, need help
+for n in range (1, y-1):
+    x = 1.0 / n
+    p = p + x
+print p
 
+# having trouble with 6, since had trouble with 5
 
 ### Collaboration
 ###
@@ -108,6 +110,3 @@ print s
 ### It took me about an hour and a half to two hours to work on the homework.
 # I feel like things could be explained slower in lab sometimes.
 # It would be helpful for newer people.
-# ... Write how long this assignment took you, including doing all the readings
-# ... and tutorials linked to from the homework page. Did the readings, tutorials,
-# ... and lecture contain everything you needed to complete this assignment?
