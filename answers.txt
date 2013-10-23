@@ -1,0 +1,50 @@
+Name: Hannah Spencer
+Evergreen Login: spehan01
+Computer Science Foundations
+Programming as a Way of Life
+Fall 2013
+Homework 3 
+
+For each problem that requires a written answer, write (or copy-and-paste)
+your answers in this file.  When you are done, you should have replaced all
+the ellipses (the three dots) with your answers.
+
+At the end, you will turn in this file along with your modified
+dna_analysis.py program.
+
+
+Problem 1:
+
+(No answers in this file.)
+
+Problem 2:
+
+sample 1 - GC-content: 0.43029262963
+
+Problem 3:
+
+By commenting out linenum = 0, a name error appears saying linenum 
+is not defined. This happens because the for loop tries to use
+linenum = linenum + 1, but it's not defined so it fails.
+
+seq is not defined, so you can't add anything to it.
+
+if commented out gc_count = 0, the for loop it's used in would have an error,
+since it's incremented on during the loop.
+
+Problem 4:
+
+GC-content = 0.43029262963
+AT_content = 0.56970737037
+
+Collaboration:
+
+linzac01
+
+Reflection:
+
+Doing this assigment began teaching me to look at
+code more closely. I wish I knew more about this
+kind of language, so my advice to future students would
+be to memorize what you learn so you know what you are
+looking at when you do this type of homework.
