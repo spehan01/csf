@@ -35,7 +35,14 @@ since it's incremented on during the loop.
 Problem 4:
 
 GC-content = 0.43029262963
-AT_content = 0.56970737037
+AT_content = 0.568993851852
+
+Problem 5:
+
+A_count: 7701287
+T_count: 7661547
+G_count: 5738773
+C_count: 5879128
 
 Collaboration:
 
