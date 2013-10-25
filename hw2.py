@@ -103,7 +103,7 @@ print p
 ### Collaboration
 ###
 
-# ... linzac03, Think Python
+# linzac03, Think Python
 
 ###
 ### Reflection

@@ -1,5 +1,7 @@
 # graded by: Micah Stringham
 # strmic29
-import lab2.py
-for i in range(n):
+import Lab2
+for i in range(Lab2.n):
   print "Hello world!"
+  
+# Fixed by spehan01
