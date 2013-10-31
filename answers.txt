@@ -35,7 +35,7 @@ since it's incremented on during the loop.
 Problem 4:
 
 GC-content = 0.43029262963
-AT_content = 0.568993851852
+AT_content = 0.56970737037
 
 Problem 5:
 
@@ -43,6 +43,25 @@ A_count: 7701287
 T_count: 7661547
 G_count: 5738773
 C_count: 5879128
+
+Problem 6:
+
+The sequence count adds up everything that's in the 
+sequence.
+The total count adds up everything you put in the 
+sequence, so they are the same.
+The sum count adds up the A count, T count, G count, 
+and C count. The sum count is slightly less, so I believe
+there are things that it's counting, things that are
+not A's, or T's, or G's, or C's. 
+
+Problem 7:
+
+AT/GC Ratio: 1.32234161747
+
+Problem 8:
+
+GC Classification: Moderate GC Content
 
 Collaboration:
 
