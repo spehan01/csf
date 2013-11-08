@@ -35,9 +35,10 @@ def state_edges(election_result_rows):
     The input list has no duplicate states;
     that is, each state is represented at most once in the input list.
     """
-    #democratic_edge = row_to_edge + state_edges
-    #print democratic_edge
-    pass
+    return ({"State": (row["State"]), "Edges": row_to_edge(row)})
+   # edges = (election_result_rows[row_to_edge])
+   # return edges
+    
     
 
 
